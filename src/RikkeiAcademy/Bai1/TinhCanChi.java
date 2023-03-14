@@ -9,7 +9,7 @@ public class TinhCanChi {
         int age = scanner.nextInt();
         int year = 2023 - age;
         String can = "", chi = "";
-        if (age<122&&age>=0){
+        if (age<=2023&&age>=0){
             switch (year % 10) {
                 case 0:
                     can = "Canh";
